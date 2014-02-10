@@ -8,7 +8,7 @@ namespace NHK.Timetable.StoreApp
 {
     public class ApiKey
     {
-        // Tokenに値を入れて、User.configにリネームするとその値を使用します
+        // Tokenに値を入れて、ApiKey.csにリネームするとその値を使用します
         public const string Token = @"YourToken";
     }
 }
