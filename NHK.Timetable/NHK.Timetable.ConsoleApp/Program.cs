@@ -12,7 +12,7 @@ namespace NHK.Timetable.ConsoleApp
         static void Main( string[] args )
         {
             try {
-                var timetable = new NhkTimetable( ConfigurationManager.AppSettings["ApiKey"] );
+                var timetable = new NhkTimetable( ConfigurationManager.AppSettings["Token"] );
                 var nowonair = timetable.GetNowOnAir().Result;
                 Console.WriteLine( nowonair.nowonair_list.g1.present.title );
                 Console.WriteLine( nowonair.nowonair_list.g1.present.start_time.ToString() );
