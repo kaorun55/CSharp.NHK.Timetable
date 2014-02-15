@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHK.Timetable.StoreApp", "N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHK.Timetable.Xamarin.Android", "NHK.Timetable.Xamarin.Android\NHK.Timetable.Xamarin.Android.csproj", "{F01087FD-3C34-4F7A-AE90-636EC1BE9075}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHK.Timetable.Test", "NHK.Timetable.Test\NHK.Timetable.Test.csproj", "{6A25936A-100B-43BE-8A4C-C8A4F607A5C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +88,16 @@ Global
 		{F01087FD-3C34-4F7A-AE90-636EC1BE9075}.Release|ARM.ActiveCfg = Release|Any CPU
 		{F01087FD-3C34-4F7A-AE90-636EC1BE9075}.Release|x64.ActiveCfg = Release|Any CPU
 		{F01087FD-3C34-4F7A-AE90-636EC1BE9075}.Release|x86.ActiveCfg = Release|Any CPU
+		{6A25936A-100B-43BE-8A4C-C8A4F607A5C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A25936A-100B-43BE-8A4C-C8A4F607A5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A25936A-100B-43BE-8A4C-C8A4F607A5C9}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{6A25936A-100B-43BE-8A4C-C8A4F607A5C9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6A25936A-100B-43BE-8A4C-C8A4F607A5C9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6A25936A-100B-43BE-8A4C-C8A4F607A5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A25936A-100B-43BE-8A4C-C8A4F607A5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A25936A-100B-43BE-8A4C-C8A4F607A5C9}.Release|ARM.ActiveCfg = Release|Any CPU
+		{6A25936A-100B-43BE-8A4C-C8A4F607A5C9}.Release|x64.ActiveCfg = Release|Any CPU
+		{6A25936A-100B-43BE-8A4C-C8A4F607A5C9}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

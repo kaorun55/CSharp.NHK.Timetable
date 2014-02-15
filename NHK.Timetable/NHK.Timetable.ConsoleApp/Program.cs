@@ -13,7 +13,7 @@ namespace NHK.Timetable.ConsoleApp
         {
             try {
                 var timetable = new NhkTimetable( ConfigurationManager.AppSettings["Token"] );
-                var nowonair = timetable.GetNowOnAir().Result;
+                var nowonair = timetable.GetNowOnAir( NhkArea.東京, NhkService.ＮＨＫ総合１ ).Result;
                 Console.WriteLine( nowonair.nowonair_list.g1.present.title );
                 Console.WriteLine( nowonair.nowonair_list.g1.present.start_time.ToString() );
                 Console.WriteLine( nowonair.nowonair_list.g1.present.end_time.ToString() );

@@ -35,12 +35,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="NhkArea.cs" />
+    <Compile Include="NhkGenre.cs" />
     <Compile Include="NhkTimetable.cs" />
     <Compile Include="NowOnAir.cs" />
     <Compile Include="ProgramGenre.cs" />
     <Compile Include="ProgramInfo.cs" />
     <Compile Include="ProgramList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="NhkService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">

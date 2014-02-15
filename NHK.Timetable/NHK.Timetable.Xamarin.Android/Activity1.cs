@@ -27,7 +27,7 @@ namespace NHK.Timetable.Xamarin.Android
 
             button.Click += async delegate
             {
-                var nowonair = await timetable.GetNowOnAir();
+                var nowonair = await timetable.GetNowOnAir( NhkArea.東京, NhkService.ＮＨＫ総合１ );
                 var text = FindViewById<TextView>( Resource.Id.textView );
                 text.Text = string.Format( "{0}\n{1}\n{2}\n{3}",
                     nowonair.nowonair_list.g1.present.title,
